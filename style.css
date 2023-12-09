@@ -1,0 +1,43 @@
+/* .blok{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blok.new{
+    background-color: red;
+} */
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+    cursor: pointer;
+    padding: 0px 50px;
+    border-radius: 35px 35px 35px 35px;
+    background-color: yellow;
+    margin-top: 40%;
+}
+.backdrop{
+    position: absolute;
+    cursor: pointer;
+    padding: 0px 50px;
+    border-radius: 35px 35px 35px 35px;
+    background-color: rgb(204, 0, 255);
+    margin-top: 50%;
+}
+.best__modal-text-2{
+    position: absolute;
+    top: -85px;
+}
+.best__modal-text-2.new{
+    top: 10px;
+    transition: 1s;
+}
